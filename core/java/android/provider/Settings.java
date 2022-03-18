@@ -11569,9 +11569,17 @@ public final class Settings {
          */
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
+	/**
+         * Control whether FLAG_SECURE is ignored for all windows.
+         * @hide
+         */
+        
+        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
+
         /** @hide */
         public static final String BACK_GESTURE_HEIGHT = "back_gesture_height";
 
+	
         /**
          * Whether longpress back button to Kill appkeys is enabled.
          * @hide
@@ -11794,7 +11802,6 @@ public final class Settings {
         public static final String ASSIST_HANDLES_LEARNING_EVENT_COUNT =
                 "reminder_exp_learning_event_count";
 
-        /**
          * These entries are considered common between the personal and the managed profile,
          * since the managed profile doesn't get to change them.
          */
